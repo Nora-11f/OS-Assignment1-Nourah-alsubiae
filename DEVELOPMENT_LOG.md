@@ -32,29 +32,35 @@ Document your development process as you work on the assignment. Add entries sho
 
 ## Your Development Log:
 
-### Entry 1 - [Date and Time]
-**What I did**: 
+### Entry 1 - [March 30, 2026, 10:00 AM]
+**What I did**: Started reviewing the assignment requirements and understanding the project
 
 **Details**: 
+- Carefully read the assignment instructions
+- Identified that the task involves multithreading and Round-Robin scheduling
+- Reviewed basic concepts like threads, processes, and scheduling algorithms
+- Compiled and ran the program successfully
 
-**Challenges**: 
+**Challenges**: Some confusion about how Round-Robin scheduling works in practice
 
-**Solution**: 
+**Solution**: Watched a short tutorial and reviewed lecture notes to understand the algorithm better
 
-**Time spent**: 
-
+**Time spent**:25 minutes
 ---
 
-### Entry 2 - [Date and Time]
-**What I did**: 
+### Entry 2 - [March 30, 2026, 1:30 PMe]
+**What I did**: Set up the project and wrote the initial code structure
 
 **Details**: 
+- Created the main Java files
+- Defined the Process structure (ID, burst time, remaining time)
+- Started implementing thread creation
 
-**Challenges**: 
+**Challenges**:Difficulty organizing the code structure for threads
 
-**Solution**: 
+**Solution**: Broke the code into smaller parts (process class, scheduler logic)
 
-**Time spent**: 
+**Time spent**: 30 minutes
 
 ---
 
@@ -71,51 +77,59 @@ Document your development process as you work on the assignment. Add entries sho
 
 ---
 
-### Entry 4 - [Date and Time]
-**What I did**: 
+### Entry 4 - [March 31, 2026, 11:00 AM]
+**What I did**: Implemented Round-Robin scheduling logic
 
-**Details**: 
+**Details**:
+- Added time quantum handling
+- Implemented ready queue behavior
+- Ensured processes are re-added if not completed
 
-**Challenges**: 
+**Challenges**: Processes were not returning correctly to the queue
 
-**Solution**: 
+**Solution**: Fixed the loop logic and ensured remaining time is updated correctly
 
-**Time spent**: 
-
----
-
-### Entry 5 - [Date and Time]
-**What I did**: 
-
-**Details**: 
-
-**Challenges**: 
-
-**Solution**: 
-
-**Time spent**: 
+**Time spent**: 40 minutes
 
 ---
 
-### Entry 6 - [Optional - Date and Time]
-**What I did**: 
+### Entry 5 -  March 31, 2026, 12:00 PM]
+**What I did**: Improved output formatting and added calculations
 
 **Details**: 
+- Displayed execution steps clearly
+- Calculated waiting time and turnaround time
+- Improved readability of results
 
-**Challenges**: 
+**Challenges**: Output formatting was messy and hard to read
 
-**Solution**: 
+**Solution**: Used formatted printing to align output
 
-**Time spent**: 
+**Time spent**: 25 minutes
+
+---
+
+### Entry 6 - [March 31, 2026, 2:30 PMe]
+**What I did**: Final review and preparation for submission
+
+**Details**: 
+- Added comments to explain code
+- Reviewed all files (Development Log, Answers, Reflection)
+- Made sure everything is complete and consistent
+**Challenges**:Ensuring everything is clearly explained for grading
+
+**Solution**: Re-read all answers and simplified explanations
+
+**Time spent**: 30 minutes
 
 ---
 
 ## Summary
 
-**Total time spent on assignment**: [X hours]
+**Total time spent on assignment**: 2 days
 
-**Most challenging part**: 
+**Most challenging part**: Implementing correct Round-Robin queue behavior
 
-**Most interesting learning**: 
+**Most interesting learning**: Understanding how threads simulate real CPU scheduling
 
-**What I would do differently next time**: 
+**What I would do differently next time**: Start earlier and test each part immediately after coding
